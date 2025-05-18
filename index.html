@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TODO list</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-light">
+  <div class="background"></div>
+  <main class="container">
+    <div class="header">
+      <h1>TODO</h1>
+      <button class="theme-toggle-btn" aria-label="Toggle theme">
+        <img src="/images/images/icon-sun.svg" alt="Theme Toggle" />
+      </button>
+    </div>
+
+    <form id="task-form">
+      <input type="text" placeholder="Create a new todo..." id="task-input" />
+    </form>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <section class="footer">
+      <span id="task-count">0 items left</span>
+      <div class="filter-buttons">
+        <button class="btn-all active">All</button>
+        <button class="btn-active">Active</button>
+        <button class="btn-completed">Completed</button>
+      </div>
+      <button id="btn-clear-completed">Clear Completed</button>      
+    </section>
+  
+  <p class="drag-drop">Drag and drop to reorder list</p>
+</main>
+  <script src="src/index.js"></script>
+</body>
+</html>
