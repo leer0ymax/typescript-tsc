@@ -19,7 +19,7 @@ body.theme-light {
 }
 
 .background {
-  background: url("images/images/bg-desktop-light.jpg") no-repeat top center;
+  background: url("images/bg-desktop-light.jpg") no-repeat top center;
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -30,7 +30,7 @@ body.theme-light {
 }
 
 body.theme-dark .background {
-  background-image: url("images/images/bg-desktop-dark.jpg");
+  background-image: url("images/bg-desktop-dark.jpg");
 }
 
 .container {
@@ -117,7 +117,7 @@ body.theme-light .task-list li {
 }
 
 .task-list li.completed .check-btn {
-  background: url('images/images/icon-check.svg') center center no-repeat, linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background: url('images/icon-check.svg') center center no-repeat, linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
   border: none;
 }
 
@@ -128,7 +128,7 @@ body.theme-light .task-list li {
 .remove-btn {
   width: 18px;
   height: 18px;
-  background: url('images/images/icon-cross.svg') center center no-repeat;
+  background: url('images/icon-cross.svg') center center no-repeat;
   cursor: pointer;
   color: hsl(234, 39%, 85%);
 }

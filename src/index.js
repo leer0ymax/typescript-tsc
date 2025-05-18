@@ -61,8 +61,8 @@ themeToggleBtn.addEventListener('click', function () {
   body.classList.toggle('theme-light');
   const icon = themeToggleBtn.querySelector('img');
   icon.src = body.classList.contains('theme-dark')
-    ? 'images/images/icon-sun.svg'
-    : 'images/images/icon-moon.svg';
+    ? 'images/icon-sun.svg'
+    : 'images/icon-moon.svg';
 });
 
 function renderTasks() {
